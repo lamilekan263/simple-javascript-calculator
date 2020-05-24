@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="calc-body">
+        <div id="calc-head">
+           
+                <input type="text" disabled  id="display">
+            
+        </div>
+        <div id="calc-btn">
+            <input type="button" class="btn" value="7" onclick="addtoscreen('7')">
+            <input type="button" class="btn" value="8" onclick="addtoscreen('8')">
+            <input type="button" class="btn" value="9" onclick="addtoscreen('9')">
+            <input type="button"  class="btn btn-clear" value="C" onclick="addtoscreen('C')">
+            <input type="button"  class="btn" value="4" onclick="addtoscreen('4')">
+            <input type="button"  class="btn" value="5" onclick="addtoscreen('5')">
+            <input type="button"  class="btn" value="6" onclick="addtoscreen('6')">
+            <input type="button"  class="btn" value="X" onclick="addtoscreen(' * ')">
+            <input type="button"  class="btn" value="1" onclick="addtoscreen('1')">
+            <input type="button"  class="btn" value="2" onclick="addtoscreen('2')">
+            <input type="button"  class="btn" value="3" onclick="addtoscreen('3')">
+            <input type="button"  class="btn" value="-" onclick="addtoscreen(' - ')">
+            <input type="button"  class="btn" value="0" onclick="addtoscreen('0')">
+            <input type="button"  class="btn" value="." onclick="addtoscreen('.')">
+            <input type="button" id="calculate"  class="btn" value="=" onclick="calc()">
+            <input type="button"  class="btn" value="+" onclick="addtoscreen(' + ')">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
